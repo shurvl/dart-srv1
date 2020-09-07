@@ -9,7 +9,7 @@ main() {
           request.response.write('Hello, world!');
           break;
         case ('/favicon.ico'):
-          request.send();
+          //request
           request.response.write('picture');
           break;
         case ('/test'):
